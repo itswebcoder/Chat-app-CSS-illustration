@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    height: 44rem;
+}
+
+.main .left .design1 {
+    position: absolute;
+    left: -6rem;
+    height: 40rem;
+    width: 23rem;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+}
+
+.main .right .design3 {
+    position: absolute;
+    top: 4rem;
+    right: -10rem;
+    height: 40rem;
+    width: 23rem;
+    opacity: 0.7;
+    background-color: hsl(264, 22%, 95%);
+    border-top-left-radius: 12rem;
+}
+
+.middle .phone {
+    position: absolute;
+    left: 14rem;
+    top: 70px;
+    height: 37rem;
+    width: 17rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(hsl(0, 0%, 100%), hsl(270, 20%, 96%));
+}
+
+.middle .phone .phone_top {
+    position: absolute;
+    height: 70px;
+    width: 90%;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 11px;
+    margin-left: 12px;
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.middle .phone .phone_top span {
+    position: absolute;
+    top: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    left: 15px;
+    color: white;
+}
+.middle .phone .phone_top li {
+    position: absolute;
+    right: 1rem;
+    top: 35px;
+    color: white;
+    font-size: 1rem;
+}
+.middle .phone .phone_top img {
+    position: absolute;
+    left: 32px;
+    margin-top: 25px;
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.middle .phone .phone_top .avatar_name {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    margin-left: 4.3rem;
+    margin-top: 25px;
+}
+.middle .phone .phone_top section {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: hsl(276, 100%, 81%);
+    font-size: 11px;
+    margin-left: 4.3rem;
+}
+
+.middle .phone .phone_notch {
+    position: absolute;
+    height: 2rem;
+    width: 8rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 50px;
+    left: 3.8rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.middle .phone .phone_chat {
+    position: absolute;
+    height: 31rem;
+    font-family: 'Rubik', sans-serif;
+    width: 90%;
+    margin-left: 12px;
+    margin-top: 5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    opacity: 0.8;
+    background-color: hsl(264, 22%, 95%);
+}
+.middle .phone_chat .upper_chat {
+    height: 5.5rem;
+    margin-left: 12px;
+    width: 12rem;
+}
+.middle .phone_chat .first_chat {
+    position: absolute;
+    height: 40px;
+    font-size: 16px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 2px;
+    margin-top: 12px;
+    width: 10rem;
+    background-color: hsl(270, 11%, 89%);
+}
+.middle .phone_chat .second_chat {
+    position: absolute;
+    font-size: 16px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 2px;
+    margin-top: 3.9rem; 
+    width: 12rem;
+    height: 50px;
+    background-color: hsl(270, 11%, 89%);
+}
+.middle_chat {
+    height: 10rem;
+    margin-top: 2.3rem;
+    width: 100%;
+}
+.middle .image {
+    display: flex;
+    position: absolute;
+    left: 5rem;
+    height: 3rem;
+    gap: 10px;
+}
+.middle .middle_chat img {
+    border-radius: 14px;
+    filter: contrast(150%), brightness(80%);
+}
+.middle .third_chat {
+    position: absolute;
+    font-size: 16px;
+    left: 3rem;
+    border-radius: 1.2rem;
+    margin-top: 3.7rem; 
+    width: 12rem;
+    height: 50px;
+    background-color: hsl(270, 11%, 89%);
+}
+.middle .fourth_chat {
+    position: absolute;
+    font-size: 16px;
+    left: 7rem;
+    border-radius: 1.2rem;
+    margin-top: 7.5rem; 
+    width: 8rem;
+    height: 30px;
+    background-color: hsl(270, 11%, 89%);
+}
+.middle .fifth_chat {
+    position: absolute;
+    font-size: 16px;
+    left: 12px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 2px;
+    bottom: 9.3rem;
+    width: 12rem;
+    height: 4rem;
+    background-color: hsl(270, 11%, 89%);
+}
+
+.pricelist {
+    margin-top: 5.2rem;
+    position: absolute;
+    gap: 5px;
+    left: 10px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 2px;
+    font-size: 13px;
+    padding: 6px;
+    width: 12rem;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+.pricelist .material-symbols-outlined {
+    font-size: 13px;
+    padding: 6px;
+}
+.pricelist h3 {
+    position: absolute;
+    color: white;
+    bottom: 1rem;
+    top: 12px;
+    right: 1rem;
+}
+.second_pricelist {
+    margin-top: 8rem;
+    position: absolute;
+    gap: 5px;
+    left: 10px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 2px;
+    font-size: 13px;
+    padding: 6px;
+    width: 12rem;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+.second_pricelist .material-symbols-outlined {
+    font-size: 13px;
+    padding: 6px;
+}
+.second_pricelist h3 {
+    position: absolute;
+    color: white;
+    bottom: 1rem;
+    top: 12px;
+    right: 1rem;
+}
+.phone_footer input{
+    position: absolute;
+    left: 25px;
+    width: 215px;
+    height: 30px;
+    margin-top: 34rem;
+    border: none;
+    border-radius: 12px;
+    color: hsl(206, 6%, 79%);
+    background-color: hsl(0, 0%, 100%);
+}
+.phone_footer .btn {
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    margin-top: 34.1rem;
+    margin-left: 13.3rem;
+    font-size: 15px;
+    background-color: hsl(271, 36%, 24%);
+}
+.text {
+    margin-top: 15rem;
+}
+.text h1 {
+    display: flex;
+    margin-top: 14rem;
+    color: hsl(271, 36%, 24%);
+    font-family: 'Rubik', sans-serif;
+}
+.text .par {
+    /* position: absolute; */
+    margin-top: 2rem;
+    margin-right: 8rem;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(208, 7%, 65%);
+}
+
+/* @media(min-width: 375px) and (max-width: 1440px) {
+    .main {
+        display: flex;
+    }
+    .left {
+        display: flex;
+        position: absolute;
+        margin-left: -6rem;
+    }
+    .right {
+        display: flex;
+        position: absolute;
+        margin-left: 27rem;
+    }
+    .middle {
+        display: flex;
+        position: absolute;
+        margin-left: -10rem;
+    }
+    .text {
+        margin-top: 30rem;
+        margin-left: 15rem;
+    }
+    .text .par{
+        text-align: center;
+        display: inline;
+    }
+} */
+
+/* @media (max-width: 1440px) {
+    .main {
+        display: flex;
+    }
+    .left {
+        display: flex;
+        position: absolute;
+        margin-left: -1rem;
+    }
+    .right {
+        display: flex;
+        position: absolute;
+    }
+    .middle {
+        display: flex;
+        position: absolute;
+        margin-left: -2rem;
+    }
+    .text {
+        /* display: flex; */
+        /* margin-top: 3rem;
+        font-size: 14px;
+        margin-left: 33rem; */
+    /* } */
+    /* .text .par{
+        text-align: center;
+        font-size: 12px;
+        display: inline;
+    } */
+/* } */
